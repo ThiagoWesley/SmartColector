@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463630561875",
+    "firebase_url": "https://smartcolector-56519.firebaseio.com",
+    "project_id": "smartcolector-56519",
+    "storage_bucket": "smartcolector-56519.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463630561875:android:fd33ce8fdff247547d0ca6",
+        "android_client_info": {
+          "package_name": "br.com.systechtecnologia.smartcolector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463630561875-h6hhvte2gnoa3iqo0iaqcc8pe060a0f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.systechtecnologia.smartcolector",
+            "certificate_hash": "a37f907ea1cdc80e0cd97442ad4c9ac77ef0ee91"
+          }
+        },
+        {
+          "client_id": "463630561875-o73hjjud3e6go2f6pnhq885r4u9rdic7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUmkcLaO77pQ_H2PBze_dG5mnQzk23aH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463630561875-o73hjjud3e6go2f6pnhq885r4u9rdic7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
