@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.ConferirActivity"
-            android:theme="@style/ConferenciaTheme"></activity>
+        <activity
+            android:name=".activity.ContagemActivity"
+            android:theme="@style/ContagemTheme" />
+        <activity
+            android:name=".activity.ConferirActivity"
+            android:theme="@style/ConferenciaTheme" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"

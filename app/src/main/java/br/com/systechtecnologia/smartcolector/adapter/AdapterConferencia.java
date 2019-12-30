@@ -23,8 +23,11 @@ public class AdapterConferencia extends RecyclerView.Adapter<AdapterConferencia.
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
         holder.descricao.setText("Apagador Compactor Azul");
+        holder.qtdCaixa.setText("12");
+        holder.total.setText("720");
         holder.codBarras.setText("7895623589632");
         holder.qtdCaixa.setText("12");
+        holder.codAux.setText("745563");
         holder.local.setText("P3");
         holder.volumes.setText("20");
     }
@@ -36,8 +39,10 @@ public class AdapterConferencia extends RecyclerView.Adapter<AdapterConferencia.
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
         TextView descricao;
-        TextView codBarras;
         TextView qtdCaixa;
+        TextView total;
+        TextView codBarras;
+        TextView codAux;
         TextView local;
         TextView volumes;
 
@@ -45,8 +50,10 @@ public class AdapterConferencia extends RecyclerView.Adapter<AdapterConferencia.
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             descricao = itemView.findViewById(R.id.txtDescricao);
-            codBarras = itemView.findViewById(R.id.txtCodBarras);
             qtdCaixa = itemView.findViewById(R.id.txtQtdCx);
+            total = itemView.findViewById(R.id.txtTotal);
+            codBarras = itemView.findViewById(R.id.txtCodBarras);
+            codAux = itemView.findViewById(R.id.txtCodAux);
             local = itemView.findViewById(R.id.txtLocal);
             volumes = itemView.findViewById(R.id.txtVolumes);
         }
