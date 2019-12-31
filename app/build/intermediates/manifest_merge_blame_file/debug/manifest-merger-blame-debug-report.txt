@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.systechtecnologia.smartcolector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:26:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:5:5-23:19
+20        android:allowBackup="true"
+20-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2111d963c95cc6e94705fb367f0a0943/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:7:9-43
+24        android:label="@string/app_name"
+24-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:8:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:9:9-54
+26        android:supportsRtl="true"
+26-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:10:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:11:9-40
+29        <activity
+29-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:12:9-14:52
+30            android:name="br.com.systechtecnologia.smartcolector.activity.ContagemActivity"
+30-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:13:13-54
+31            android:theme="@style/ContagemTheme" />
+31-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:14:13-49
+32        <activity
+32-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:15:9-17:55
+33            android:name="br.com.systechtecnologia.smartcolector.activity.ConferirActivity"
+33-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:16:13-54
+34            android:theme="@style/ConferenciaTheme" />
+34-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:17:13-52
+35        <activity
+35-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:18:9-22:59
+36            android:name="br.com.systechtecnologia.smartcolector.activity.MainActivity"
+36-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:19:13-50
+37            android:exported="true"
+37-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:20:13-36
+38            android:label="@string/title_activity_main"
+38-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:21:13-56
+39            android:theme="@style/AppTheme.NoActionBar" />
+39-->/home/ivanildo/Desktop/SmartColector/app/src/main/AndroidManifest.xml:22:13-56
+40        <activity
+40-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+41            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+41-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+42            android:excludeFromRecents="true"
+42-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+43            android:exported="true"
+43-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+44            android:launchMode="singleTask"
+44-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+45            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+45-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+47
+48        <service
+48-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:33:9-39:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:34:13-84
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:35:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/4a94e44f77aa05717c043b0283fd4e6e/jetified-firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+55                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+55-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-database:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/c403b781287b4fba35d15b95b7d27442/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+57            <meta-data
+57-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/24879e7976fb1b88dfeea23fd62ea222/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+58                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+58-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/24879e7976fb1b88dfeea23fd62ea222/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/24879e7976fb1b88dfeea23fd62ea222/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+61                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+61-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+63        </service>
+64
+65        <receiver
+65-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+66            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+66-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+68            android:exported="false" >
+68-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+69        </receiver>
+70        <receiver
+70-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+71            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+71-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+73            android:exported="true"
+73-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+74            android:permission="android.permission.INSTALL_PACKAGES" >
+74-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+75            <intent-filter>
+75-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+76                <action android:name="com.android.vending.INSTALL_REFERRER" />
+76-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+76-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+77            </intent-filter>
+78        </receiver>
+79
+80        <service
+80-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+81            android:name="com.google.android.gms.measurement.AppMeasurementService"
+81-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+83            android:exported="false" />
+83-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+84        <service
+84-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+85            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+85-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+88            android:permission="android.permission.BIND_JOB_SERVICE" />
+88-->[com.google.android.gms:play-services-measurement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/2f6ff60a8b63eb7f8e7724d57995e548/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+89
+90        <receiver
+90-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+91            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+91-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+92            android:exported="true"
+92-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+93            android:permission="com.google.android.c2dm.permission.SEND" >
+93-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+94            <intent-filter>
+94-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+95                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+95-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+95-->[com.google.firebase:firebase-iid:19.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8dd76bdce9dfd1a360da2cecb43043b3/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+96            </intent-filter>
+97        </receiver>
+98
+99        <provider
+99-->[com.google.firebase:firebase-common:18.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8629a2d43bad96f54e28412cfc78e3cb/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+100            android:name="com.google.firebase.provider.FirebaseInitProvider"
+100-->[com.google.firebase:firebase-common:18.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8629a2d43bad96f54e28412cfc78e3cb/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+101            android:authorities="br.com.systechtecnologia.smartcolector.firebaseinitprovider"
+101-->[com.google.firebase:firebase-common:18.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8629a2d43bad96f54e28412cfc78e3cb/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+102            android:exported="false"
+102-->[com.google.firebase:firebase-common:18.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8629a2d43bad96f54e28412cfc78e3cb/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+103            android:initOrder="100" />
+103-->[com.google.firebase:firebase-common:18.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8629a2d43bad96f54e28412cfc78e3cb/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8db931cb8d1f37736cf1005470f62dfc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8db931cb8d1f37736cf1005470f62dfc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.0.0] /home/ivanildo/.gradle/caches/transforms-2/files-2.1/8db931cb8d1f37736cf1005470f62dfc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+113    </application>
+114
+115</manifest>

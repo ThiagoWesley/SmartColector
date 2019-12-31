@@ -23,7 +23,7 @@ public class AdapterConferencia extends RecyclerView.Adapter<AdapterConferencia.
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
         holder.descricao.setText("Apagador Compactor Azul");
-        holder.qtdCaixa.setText("12");
+        holder.qtdCaixa.setText("13");
         holder.total.setText("720");
         holder.codBarras.setText("7895623589632");
         holder.qtdCaixa.setText("12");
