@@ -28,7 +28,7 @@ public class AdapterConferencia extends RecyclerView.Adapter<AdapterConferencia.
         holder.codBarras.setText("7895623589632");
         holder.qtdCaixa.setText("12");
         holder.codAux.setText("745563");
-        holder.local.setText("P3");
+        holder.local.setText("P8");
         holder.volumes.setText("20");
     }
 
