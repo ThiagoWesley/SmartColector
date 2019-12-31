@@ -1164,8 +1164,11 @@ drawable ic_action_navigation_close
 drawable ic_action_navigation_close_inverted
 drawable ic_action_voice_search
 drawable ic_action_voice_search_inverted
+drawable ic_adicionar_contagem
 drawable ic_arrumacao
 drawable ic_aumentar
+drawable ic_cancelar
+drawable ic_check
 drawable ic_conferencia
 drawable ic_consulta
 drawable ic_cubagem
@@ -1176,6 +1179,7 @@ drawable ic_menu_branco_24dp
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_scanear
 drawable ic_suggestion
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1267,6 +1271,10 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnAdicionar
+id btnAdicionar2
+id btnAumentar
+id btnDiminuir
 id buttonPanel
 id center
 id center_horizontal
@@ -1320,6 +1328,8 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
+id floatingActionButton
+id floatingActionButton2
 id forever
 id ghost_view
 id gone
@@ -1332,8 +1342,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageButton
-id imageButton2
 id info
 id invisible
 id italic
@@ -1377,7 +1385,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id recyclerCoferencia
+id recyclerConferencia
 id right
 id right_icon
 id right_side

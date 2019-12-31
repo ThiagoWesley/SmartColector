@@ -1,4 +1,4 @@
-#Mon Dec 30 21:14:24 BRT 2019
+#Tue Dec 31 07:06:04 BRT 2019
 base.0=/home/ivanildo/Desktop/SmartColector/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

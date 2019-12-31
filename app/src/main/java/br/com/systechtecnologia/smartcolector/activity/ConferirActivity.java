@@ -5,10 +5,12 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
@@ -28,7 +30,7 @@ public class ConferirActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //inicialização de componentes
         searchView = findViewById(R.id.searchViewConferencia);
-        recyclerView = findViewById(R.id.recyclerCoferencia);
+        recyclerView = findViewById(R.id.recyclerConferencia);
         //Configurar Adapter
         AdapterConferencia adapterConferencia = new AdapterConferencia();
         //Configurar RecyclerView
@@ -68,5 +70,8 @@ public class ConferirActivity extends AppCompatActivity {
         MenuItem item = menu.findItem(R.id.menu_search_conferencia);
         searchView.setMenuItem(item);
         return true;
+    }
+    public void abrirContagem(View view){
+        startActivity(new Intent(this, ContagemActivity.class));
     }
 }
